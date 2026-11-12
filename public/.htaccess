@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP:Accept} text/markdown [NC]
+    RewriteRule ^$ index.md [END,T=text/markdown]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header add Link "</index.md>; rel=alternate; type=\"text/markdown\""
+    Header add Link "</llms.txt>; rel=describedby; type=\"text/plain\""
+</IfModule>
