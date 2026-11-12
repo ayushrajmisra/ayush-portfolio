@@ -1,0 +1,121 @@
+﻿/* Premium portfolio interaction layer */
+
+:root {
+  --premium-gold: #d6b36a;
+  --premium-blue: #829cff;
+  --premium-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  background-color: #080d1b;
+}
+
+section[id] {
+  position: relative;
+  isolation: isolate;
+}
+
+section[id]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, rgba(214,179,106,.13), transparent);
+}
+
+.premium-card {
+  position: relative;
+  isolation: isolate;
+  transform: translateZ(0);
+  transition:
+    transform 650ms var(--premium-ease),
+    border-color 450ms ease,
+    background-color 450ms ease,
+    box-shadow 650ms var(--premium-ease);
+}
+
+.premium-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(214,179,106,.09),
+    transparent 38%,
+    rgba(130,156,255,.07)
+  );
+  transition: opacity 500ms ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(214,179,106,.34);
+  box-shadow: 0 24px 70px rgba(0,0,0,.22), 0 0 35px rgba(214,179,106,.045);
+}
+
+.premium-card:hover::after {
+  opacity: 1;
+}
+
+.premium-card img {
+  transition: transform 900ms var(--premium-ease), filter 700ms ease;
+}
+
+.premium-card:hover img {
+  transform: scale(1.045);
+}
+
+.premium-kicker {
+  color: var(--premium-gold);
+  letter-spacing: .28em;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.premium-heading {
+  letter-spacing: -.055em;
+  text-wrap: balance;
+}
+
+.premium-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(214,179,106,.55), rgba(255,255,255,.08), transparent);
+}
+
+::selection {
+  background: var(--premium-gold);
+  color: #080d1b;
+}
+
+@media (hover: none) {
+  .premium-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .premium-card,
+  .premium-card::after,
+  .premium-card img {
+    transition: none !important;
+  }
+
+  .premium-card:hover,
+  .premium-card:hover img {
+    transform: none !important;
+  }
+}

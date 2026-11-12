@@ -1,0 +1,26 @@
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(102, 136, 255, 0.08);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(102, 136, 255, 0.2);
+  }
+}
+
+html {
+  scroll-padding-top: 90px;
+}
+
+body {
+  overflow-x: hidden;
+}
