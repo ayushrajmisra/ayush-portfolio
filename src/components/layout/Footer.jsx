@@ -73,13 +73,17 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mx-auto mt-10 flex max-w-7xl flex-col gap-3 border-t border-white/[0.06] pt-6 text-[11px] text-slate-600 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto mt-10 flex max-w-7xl flex-col gap-4 border-t border-white/[0.06] pt-6 text-[11px] text-slate-600 sm:flex-row sm:items-center sm:justify-between">
         <p>© {new Date().getFullYear()} Ayush Misra. All rights reserved.</p>
-        <a href="#home" className="inline-flex items-center gap-2 hover:text-white">
-          Back to top <ArrowUpRight size={13} />
-        </a>
+        <div className="flex flex-wrap items-center gap-5">
+          <a href="/about/" className="transition hover:text-white">About</a>
+          <a href="/contact/" className="transition hover:text-white">Contact</a>
+          <a href="/terms/" className="transition hover:text-white">Terms</a>
+          <a href="#home" className="inline-flex items-center gap-2 transition hover:text-white">
+            Back to top <ArrowUpRight size={13} />
+          </a>
+        </div>
       </div>
     </footer>
   );
 }
-
