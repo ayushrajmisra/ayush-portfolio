@@ -1,0 +1,53 @@
+﻿# Ayush Misra
+
+> Personal portfolio of Ayush Misra, a founder, developer and product builder based in Pratapgarh, Uttar Pradesh, India.
+
+## About
+Ayush Misra is the Founder & Director of Kartsho Solutions Private Limited. His interests and work include website development, mobile applications, digital products, product planning, business operations and community initiatives.
+
+## Professional Profiles
+- Website: https://ayushmisra.kartsho.com/
+- GitHub: https://github.com/ayushrajmisra
+- LinkedIn: https://www.linkedin.com/in/misraayush
+- Instagram: https://www.instagram.com/ayushatkartsho/
+- Facebook: https://www.facebook.com/share/18H9fondJH/
+
+## Company
+- Kartsho Solutions: https://kartsho.com/
+- Role: Founder & Director
+- Co-founder: Ranjan Kumar
+
+## Selected Projects
+- Kartsho Solutions: Technology and digital services venture.
+- LawDalat: Legal services platform project with client, advocate and administration workflows.
+- Career Craft: Academic AI resume analyser interface concept.
+- Digital Clock: Browser-based web development project.
+
+## Experience
+- Founder & Director, Kartsho Solutions Private Limited (2026–Present)
+- Secretary, JAI Youth Wing (2025)
+- Coordinator, Utkrisht Tech Fest (November 2024)
+- Communication & Marketing Intern, HimalayanBuzz Admedia LLP (November 2024–February 2025)
+- Cabinet Head, National Service Scheme (2024–2025)
+- Club Manager, Vibgyor GreenX (2023–2024)
+
+## Education
+- Bachelor of Computer Applications, Tula's Institute, Dehradun (2022–2025)
+
+## Community Work
+Ayush has contributed to NSS volunteer activities, GreenX environmental initiatives and the Plafthon waste-collection initiative.
+
+## Contact
+- Email: ayush@kartsho.com
+- Phone: +91 94531 34901
+- Location: Pratapgarh, Uttar Pradesh, India
+
+## Main Website Sections
+- About: https://ayushmisra.kartsho.com/#about
+- Projects: https://ayushmisra.kartsho.com/#projects
+- Experience: https://ayushmisra.kartsho.com/#experience
+- Community: https://ayushmisra.kartsho.com/#community
+- Education: https://ayushmisra.kartsho.com/#education
+- Contact: https://ayushmisra.kartsho.com/#contact
+
+For current details, refer to the portfolio website and the linked professional profiles.
